@@ -1,15 +1,5 @@
-## RSS to JSON converter application on Heroku
+RSSを取得してJSONに変換した後にmongoDBにデータを入れる勉強用コードです
 
-Application is running at the site below:
+デプロイ先のアドレスは次のとおりです：
 
-<http://protected-oasis-1115.herokuapp.com>
-
-The Source RSS feed is below:
-
-<http://pipes.yahoo.com/pipes/pipe.run?_id=6adb7c2f4644af358fbe273293c80e43&_render=rss&tag=technology>
-
-The Yahoo Pipe which generate above RSS is below:
-
-<http://pipes.yahoo.com/pipes/pipe.info?_id=6adb7c2f4644af358fbe273293c80e43>
-
-At first, I used activesupport to_json method, but this doesn't process UTF-8 well, so I selected yajl gem. This gem works well.
+<http://sultry-dusk-3125.herokuapp.com/>
