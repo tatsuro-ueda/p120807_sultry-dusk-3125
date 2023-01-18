@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'sinatra'
-gem 'activesupport', "3.1.0"
+gem 'activesupport', "3.2.12"
 gem 'i18n'
 gem 'thin'
 gem 'yajl-ruby'
